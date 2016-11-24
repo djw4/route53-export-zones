@@ -19,3 +19,4 @@ sh ./scripts/export.sh
 # Cleanup
 rm -f filelocation
 echo "Export completed."
+echo "`ls zones | wc -l` zone(s) exported"
